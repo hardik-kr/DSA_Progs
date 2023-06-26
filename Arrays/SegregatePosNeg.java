@@ -1,9 +1,8 @@
-class SegregatePosNeg 
+package Arrays;
+public class SegregatePosNeg 
 {
-    public static void main(String[] args)   
+    public void Segregate(int arr[])   
     {
-        
-        int arr[] = {8,5,-7,-2,10,15} ;
         int size = arr.length ;  
         int start = 0, end = size-1 ;
         while(start < end)

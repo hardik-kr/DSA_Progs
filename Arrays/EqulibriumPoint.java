@@ -1,15 +1,7 @@
-class EqulibriumPoint 
+package Arrays;
+public class EqulibriumPoint 
 {
-    public static void main(String[] args) 
-    {
-        int input[] = {1,4,2,3,2} ;
-        int ans ;
-        //ans = EqulibriumPoint_On(input) ;
-        ans = EqulibriumPoint_O1(input) ;
-        System.out.println(ans);
-    }
-
-    private static int EqulibriumPoint_O1(int[] input) {
+    public int EqulibriumPoint_O1(int[] input) {
         int size = input.length ;
         int rightsum = 0, leftsum = 0, maxsum = 0 ;
 
@@ -32,7 +24,7 @@ class EqulibriumPoint
         return -1 ;
     }
 
-    private static int EqulibriumPoint_On(int[] input) {
+    public int EqulibriumPoint_On(int[] input) {
         int size = input.length ;
         int prefix[] = new int[size] ;
         int maxsum = 0 ;

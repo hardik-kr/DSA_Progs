@@ -2,7 +2,7 @@
 
 ### Arrays
 
-<img src="./res/image.png" width="500" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="./_res/image.png" width="500" style="display: block; margin-left: auto; margin-right: auto;">
 
 #### - `1D Array` 
 - `Declaration & input`
@@ -50,9 +50,9 @@
 #### - `MultiDimension Array`
 > Multidimensional arrays are arrays of arrays with each element of the array holding the reference of other arrays.
 
-<img src="./res/image2.png" width="400" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="./_res/image2.png" width="400" style="display: block; margin-left: auto; margin-right: auto;">
 <br/>
-<img src="./res/image3.png" width="350" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="./_res/image3.png" width="350" style="display: block; margin-left: auto; margin-right: auto;">
 
 - `Declaration & input`
     ```java
